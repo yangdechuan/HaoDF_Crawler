@@ -46,6 +46,7 @@ class HaodfSpiderSpider(scrapy.Spider):
         item["title"] = title
         item["disease"] = disease
         item["description"] = description
+        item["url"] = response.url
 
         yield item
 

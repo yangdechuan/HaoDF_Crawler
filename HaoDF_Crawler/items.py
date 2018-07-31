@@ -14,3 +14,4 @@ class HaodfCrawlerItem(scrapy.Item):
     title = scrapy.Field()
     disease = scrapy.Field()
     description = scrapy.Field()
+    url = scrapy.Field()
