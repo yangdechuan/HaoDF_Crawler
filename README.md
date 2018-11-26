@@ -1,8 +1,12 @@
 # HaoDF_Crawler
-## Requires
-python3
 
-scrapy >= 1.5.0
+## Introduction
+Scrapy project for crawling `questions and answers` in https://www.haodf.com/
+
+## Requires
+* python3
+* scrapy
+
 ## Usage
 ```
 scrapy crawl haodf_spider -o haodf.jl -s FEED_EXPORT_ENCODING=utf-8
